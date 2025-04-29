@@ -1,0 +1,15 @@
+/* Reset default styles from template */
+#root {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: inherit; /* Hereda del body */
+  color: inherit; /* Hereda del body */
+}

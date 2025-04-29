@@ -1,0 +1,38 @@
+.character-detail-container {
+    padding: 20px;
+  }
+  
+  .back-button {
+    margin-bottom: 20px;
+    background-color: #3563E9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .character-detail-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .character-detail-image img {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .character-detail-info {
+    flex: 1;
+  }
+  
+  .character-detail-info h1 {
+    margin-bottom: 10px;
+  }
+  
+  .character-detail-info p {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+  }
+  
